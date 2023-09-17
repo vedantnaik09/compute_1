@@ -12,3 +12,25 @@
 *{
   font-family: Montserrat;
 }
+.custRow{
+  display: inline-block;
+  width: fit-content;
+ 
+}
+th{
+  padding-right: 10vw;
+  padding-bottom: 20px;
+}
+td{
+  padding-right: 25px;
+  padding-bottom: 15px;
+}
+td a{
+  text-decoration: none;
+  color: white;
+}
+a img{
+  height: 3vh;
+  width: 1.5vw;
+  margin-right: 8px;
+}
