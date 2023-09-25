@@ -1,3 +1,34 @@
+*{
+  font-family: Montserrat;
+}
+html{
+  font-size: 1vw;
+  }
+.navbar{
+  width:"60%";
+  margin:"auto";
+  padding:"1%";
+  font-size: 17px;
+}
+.navbar-brand{
+  margin-right: 7%;
+}
+
+.login{
+  margin: 0em 1em 0em 1em;
+}
+
+.btn-join{  
+    background-color:#ff7b52;
+    color:white;
+    border-radius:5%;
+    padding-left:25px;
+    padding-right:25px;
+    font-size: 17px;
+}
+.btn:hover{
+  background-color:#ff7b52;
+}
 
 .nav-link{
   color:white;
@@ -9,14 +40,67 @@
 .navbar-brand{
   font-weight: 600;
 }
-*{
-  font-family: Montserrat;
+
+nav ul{
+  align-items: center;
 }
-.custRow{
-  display: inline-block;
-  width: fit-content;
- 
+
+.title{
+  font-family:Montserrat;
+text-align:center;
+font-size:2.5rem;
+font-weight:700;
+line-height:1.5;
+letter-spacing:0.2px;
 }
+
+.pageTitle{
+  margin-top: 10em;
+  padding-bottom: 20em;
+}
+
+.pg-1-body{
+  width:30%;
+  margin:auto;
+  font-size: 1.5rem;
+  margin-bottom:2em;
+  margin-top:2em;
+  }
+
+.btn-pg-1{
+  background-color:#ff7b52;
+color:white;
+border-radius:5%;
+padding: 1em 2em 1em 2em;
+font-size: 1rem;
+margin-right:20px;
+}
+
+.title-2{
+  font-weight:700;
+font-size:5vh;
+font-size:2.5rem;
+}
+
+.page-2-body{
+  color:#8D5CF6;
+font-size:0.8rem;
+font-weight:700;
+}
+.teacher-down{
+  align-content: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+}
+.teacher-container{
+  width:70%;
+display:flex;
+justify-content:space-evenly;
+margin:auto;
+height:20vw;
+margin-top:5%;
+}
+
 th{
   padding-right: 10vw;
   padding-bottom: 20px;
@@ -29,8 +113,273 @@ td a{
   text-decoration: none;
   color: white;
 }
-a img{
-  height: 3vh;
+td a img{
   width: 1.5vw;
   margin-right: 8px;
 }
+.btn-join{  
+  background-color:#ff7b52;
+  color:white;
+  border-radius:5%;
+  padding-left:25px;
+  padding-right:25px;
+}
+.teacher-card-content{
+  margin:4vh 0 0 2vw;
+width:80%;
+font-size: 1rem;
+}
+.teacher-card-main{
+  width:14vw;
+}
+.book-container{
+  display:flex;
+justify-content:space-evenly;
+width:75%;
+margin:auto;
+}
+.bookcard{
+  width: 260px;
+height:fit-content;
+padding:0;
+padding-bottom:25px;
+min-width:260px;
+}
+.sale{
+  width:fit-content;
+background-color:#E74040;
+padding:1px 7px;
+border-radius:5px;
+position:absolute;
+left:5%;
+top:3%;
+font-size:1rem;
+}
+.book-icon-div{
+  position:absolute;
+left:0;
+right:0;
+top:29vh;
+width:fit-content;
+margin:auto;
+max-height:5vh;
+}
+.book-icons{
+  width:5vw;
+max-width:3vw;
+}
+.social-icons{
+  width:1.5vw;
+max-width:3vw;
+}
+.review{
+  right: 2em;
+display: inline-block;
+background-color:#26335D;
+padding:5px;
+border-radius:15px;
+position: absolute;
+font-size: 0.8rem;
+}
+
+.book-content{
+  font-size: 0.8rem;
+}
+.learn-more{
+  background-color:transparent;
+border:2px solid #8D5CF6;
+color:#8D5CF6;
+font-size:1.8vh;
+}
+.girl-container{
+  margin:auto;
+width:fit-content;
+align-items: center;
+}
+.container-4{
+  display:inline-block;
+width:30%;
+vertical-align:middle;
+}
+.img-girl{
+  display:inline-block;
+max-width:100%;
+height:65vh;
+margin-right:10%;
+}
+.red-bar{
+  width:94px;
+height:7px;
+background-color:#E74040;
+}
+.container-5{
+  display:flex;
+width:60%;
+}
+.pg-5-body{
+  display:inline-block;
+width:50%;
+}
+.img-div{
+  display:inline-block;
+position:relative;
+vertical-align:top;
+margin-left:auto;
+}
+.red-bar-5{
+  width:94px;
+height:7px;
+background-color:#E74040;
+}
+.mancard{
+  width:30vw;
+}
+.star{
+  width: 30%;
+  margin: auto;
+}
+.title-6{
+  font-weight:700;
+font-size:5vh;
+font-size:2.5rem;
+}
+
+.page-6-body{
+  color:#8D5CF6;
+font-size:0.8rem;
+font-weight:700;
+}
+@media (max-width:991px)
+{
+  .navbar{
+    --bs-navbar-brand-font-size: 3rem;
+  }
+  .container-fluid{
+    margin: 1em 0em;
+    flex-direction: column;
+  }
+  .navbar-brand{
+    margin-right: 0px;
+  }
+  .navbar-toggler-icon{
+    width: 3rem;
+    height: 3rem;
+  }
+  .login{
+    margin: 0;
+  }
+  .btn-join{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .navbar-collapse{
+    text-align: center;
+  }
+  .teacher-container{
+    display:flex;
+    flex-direction: column;
+    height: fit-content;
+    align-items: center;
+    
+  }
+  .title-2{
+  font-size:3rem;
+  }
+  
+  .page-2-body{
+  font-size:2rem;
+  }
+  .teachercard{
+    margin: 2em 0;
+  }
+  .container-2{
+    text-align: center;
+    
+  }
+  .teacher-card-content{
+  font-size: 2rem;
+  }
+  .teacher-card-main{
+    width:20vw;
+  }
+}
+
+@media (max-width:1430px){
+  .book-container{
+    flex-direction: column;
+    align-items: center;
+  }
+  .bookcard{
+    margin: 3em 0
+  }
+  .container-3{
+    text-align: center;
+  }
+  .sale{
+  font-size:1rem;
+  }
+  .book-icons , .social-icons{
+    width:5vw;
+  max-width:3vw;
+  }
+  .review{
+  font-size: 1rem;
+  }
+  
+  .book-content{
+    font-size: 1.3rem;
+  }
+  .learn-more{
+  font-size:1.8vh;
+  }
+  .girl-container{
+    text-align: center;
+  }
+  .container-4{
+    width:60%;
+  }
+  .img-girl{
+    margin-right: 0;
+    min-width: 300px;
+  }
+  .red-bar{
+    margin: auto;
+  }
+  .container-5{
+    flex-direction: column;  
+  }
+  .pg-5-body{
+    margin: auto;
+    text-align: center;
+
+  }
+  .img-div{
+    margin: auto;
+  }
+  .body-5{
+    margin: auto;
+  }
+  .red-bar-5{
+    margin: auto;
+  }
+  .mancard{
+    width: 40vw;   
+    margin: auto;
+    margin-bottom: 3vw;
+  }
+  .star{
+    width:35%;
+margin:auto;
+  }
+  .title-6{
+    text-align: center;
+  font-size:3rem;
+  }
+  
+  .page-6-body{
+    text-align: center;
+    font-size:2rem;
+
+  }
+}
+
