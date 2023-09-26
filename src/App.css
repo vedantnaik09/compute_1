@@ -266,6 +266,10 @@ font-weight:700;
     width: 3rem;
     height: 3rem;
   }
+  .pageTitle{
+    margin-top: 5em;
+    padding-bottom: 15em;
+  }
   .login{
     margin: 0;
   }
