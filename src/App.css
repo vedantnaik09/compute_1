@@ -254,6 +254,7 @@ font-weight:700;
 {
   .navbar{
     --bs-navbar-brand-font-size: 3rem;
+    font-size: 2rem;
   }
   .container-fluid{
     margin: 1em 0em;
@@ -276,6 +277,7 @@ font-weight:700;
   .btn-join{
     padding-left: 1em;
     padding-right: 1em;
+    font-size: 2rem;
   }
   .navbar-collapse{
     text-align: center;
